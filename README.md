@@ -13,6 +13,7 @@ Credit goes to [@stemmlerjs](https://github.com/stemmlerjs) :fire:
 - Eslint
 - Prettier
 - Husky
+- Testing (Mocha, Chai, Sinon & Supertest)
 
 ## License
 
