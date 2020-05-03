@@ -9,3 +9,5 @@ server.use("/", (req, res) => {
 server.listen(4004, () => {
   console.log("Express is running");
 });
+
+export default server;
