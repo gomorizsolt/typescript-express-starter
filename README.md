@@ -1,6 +1,6 @@
 # TypeScript Express Starter
 
-Credit goes to @stemmlerjs :fire:
+Credit goes to [@stemmlerjs](https://github.com/stemmlerjs) :fire:
 - https://khalilstemmler.com/blogs/typescript/node-starter-project/
 - https://khalilstemmler.com/blogs/typescript/eslint-for-typescript/
 - https://khalilstemmler.com/blogs/tooling/prettier/
