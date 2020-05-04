@@ -1,7 +1,7 @@
 {
   "name": "solid-rest-api",
   "version": "1.0.0",
-  "description": "https://khalilstemmler.com/articles/enterprise-typescript-nodejs/clean-consistent-expressjs-controllers/",
+  "description": "TypeScript + Express Starter with Code Formatting & Pre-Commit Hooks",
   "main": "index.js",
   "scripts": {
     "build": "rimraf ./build && tsc",
