@@ -9,7 +9,7 @@
     "start:prod": "npm run build && node build/index.js",
     "lint": "eslint . --ext .ts",
     "test": "mocha",
-    "test:cov": "nyc mocha"
+    "test:cov": "nyc --reporter=html --reporter=text mocha"
   },
   "repository": {
     "type": "git",
@@ -53,5 +53,16 @@
     "hooks": {
       "pre-commit": "npm run lint && npm run test"
     }
+  },
+  "nyc": {
+    "include": [
+     "src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules/**",
+      "src/**/*.spec.ts",
+      "build"
+    ],
+    "all": true
   }
 }
