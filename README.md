@@ -9,7 +9,7 @@
 - Husky
 - Testing (Mocha, Chai, Sinon & Supertest)
 - GitHub Actions (CI/CD)
-- Dotenv (environment variables)
+- Dotenv
 
 ## Usage
 
