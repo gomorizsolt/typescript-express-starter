@@ -1,27 +1,27 @@
 {
-  "name": "solid-rest-api",
+  "name": "typescript-express-starter",
   "version": "1.0.0",
   "description": "TypeScript + Express Starter with Code Formatting & Pre-Commit Hooks",
-  "main": "index.js",
+  "main": "./build/server.js",
   "scripts": {
     "build": "rimraf ./build && tsc",
     "start:dev": "nodemon",
-    "start:prod": "npm run build && node build/index.js",
+    "start:prod": "npm run build && node build/server.js",
     "lint": "eslint . --ext .ts",
     "test": "mocha",
     "test:cov": "nyc --reporter=html --reporter=text mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gomorizsolt/solid-rest-api.git"
+    "url": "git+https://github.com/gomorizsolt/typescript-express-starter.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gomorizsolt/solid-rest-api/issues"
+    "url": "https://github.com/gomorizsolt/typescript-express-starter/issues"
   },
-  "homepage": "https://github.com/gomorizsolt/solid-rest-api#readme",
+  "homepage": "https://github.com/gomorizsolt/typescript-express-starter#readme",
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
     "@types/chai": "^4.2.11",
