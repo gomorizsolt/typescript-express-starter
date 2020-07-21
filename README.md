@@ -11,6 +11,8 @@
 
 ## Usage
 
+Note that it's a [template repository](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/) so you can use either the [`/generate`](https://github.com/gomorizsolt/typescript-express-starter/generate) endpoint or the *Use this template* button on the project's homepage to get started with the codebase in seconds.
+
 1. Check the folder out locally.
 
 ```sh
