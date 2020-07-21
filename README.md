@@ -8,7 +8,8 @@
 - Prettier
 - Husky
 - Testing (Mocha, Chai, Sinon & Supertest)
-- CI/CD (GitHub Actions)
+- GitHub Actions (CI/CD)
+- Dotenv (environment variables)
 
 ## Usage
 
