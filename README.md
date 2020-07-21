@@ -1,12 +1,6 @@
 # TypeScript Express Starter
 
-Credit goes to [@stemmlerjs](https://github.com/stemmlerjs) :fire:
-- https://khalilstemmler.com/blogs/typescript/node-starter-project/
-- https://khalilstemmler.com/blogs/typescript/eslint-for-typescript/
-- https://khalilstemmler.com/blogs/tooling/prettier/
-- https://khalilstemmler.com/blogs/tooling/enforcing-husky-precommit-hooks/
-
-## Stack :wrench:
+## Stack
 - TypeScript
 - Express
 - Nodemon
@@ -14,6 +8,27 @@ Credit goes to [@stemmlerjs](https://github.com/stemmlerjs) :fire:
 - Prettier
 - Husky
 - Testing (Mocha, Chai, Sinon & Supertest)
+
+## Usage
+
+1. Check the folder out locally.
+
+```sh
+git clone git@github.com:gomorizsolt/typescript-express-starter.git
+```
+
+2. Enter the folder and install the dependencies.
+
+```sh
+cd <FOLDER>/ && npm i
+```
+
+3. Make sure the development environment is up and running.
+
+```sh
+npm run lint
+npm run start:dev
+```
 
 ## License
 
