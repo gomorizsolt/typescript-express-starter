@@ -8,6 +8,7 @@
 - Prettier
 - Husky
 - Testing (Mocha, Chai, Sinon & Supertest)
+- CI/CD (GitHub Actions)
 
 ## Usage
 
